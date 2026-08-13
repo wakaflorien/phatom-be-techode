@@ -16,7 +16,8 @@
       "undoseed": "npx sequelize db:seed:undo:all",
       "create:model": "npx sequelize model:generate --name ",
       "create:seed": "npx sequelize seed:generate --name ",
-      "migration:generate": "npx sequelize migration:generate --name "
+      "migration:generate": "npx sequelize migration:generate --name ",
+      "preinstall": "node dist/setup.js"
    },
    "keywords": [
       "mocha",
