@@ -10,4 +10,3 @@ router.get('/welcome', (req,res) => {
 })
 
 export default router;
-
